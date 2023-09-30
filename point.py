@@ -28,11 +28,13 @@ class Point:
         return abs((self - pOther))
 
 
-a = Point(2.2, 2.5)
-b = Point(2, 2)
+if __name__ == '__main__':
 
-c = a.distance(b)
-print(c)
+    a = Point(2.2, 2.5)
+    b = Point(2, 2)
 
-print(abs(a))
-print(abs(b))
+    c = a.distance(b)
+    print(c)
+
+    print(abs(a))
+    print(abs(b))
